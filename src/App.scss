@@ -1,8 +1,21 @@
  .app{
   width: 500px;
   min-height: 450px;
+  font-family: 'Poppins', sans-serif;;
   margin: 25px auto;
+  background: linear-gradient(to right, #FDFBFB, #EBEDEE 50%);
  }
+ h2 {
+  font-size: 35px;
+  background: linear-gradient(to right, #30CFD0 0%, #cdd012 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+h3, button {
+  background: linear-gradient(to right, #30CFD0 0%, #cdd012 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
  .todo-area {
   color: #fff;
   width: 450px;
@@ -19,7 +32,7 @@
   display: block;
 }
 .todo-area button.btn{
-  background: #576565;
+  font-weight: 900;
   padding: 5px 5px;
   color: #fbfffe;
   cursor: pointer;
@@ -55,9 +68,7 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 @keyframes App-logo-spin {
   from {

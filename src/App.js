@@ -45,7 +45,7 @@ function App() {
   return (
     <div className="app" style={{backgroundImage:`url(${bg})`}}>
         <div className= "todo-area">
-          <h2>Make A Todo List</h2>
+          <h2>Make Your Life Easier</h2>
           <h3>Total To Do: {todos.filter(todo => !todo.complete).length}</h3>
         <input className="todo-input" ref={todoNameRef} type="text" placeholder=" Type Your To Do Here" />
         <button className="btn" onClick={handleAddTodo}>Add Todo</button>
